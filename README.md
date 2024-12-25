@@ -12,4 +12,4 @@ This is the official backend for the **CharCoin Ecosystem**, powering staking, D
 All smart contract interactions and fund allocations are securely handled through this backend.
 
 For full details, visit: [charcoin.org](https://charcoin.org)
-<!-- updated: 2024-08-30-r01 -->
+<!-- updated: 2024-12-25-r01 -->
