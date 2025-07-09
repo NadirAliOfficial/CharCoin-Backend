@@ -1,44 +1,29 @@
 var express = require('express');
 var router = express.Router();
 const authenticateToken = require("./../middlewares/auth");
+const rewardNftModel = require("./../models/rewards-nft");
 
-
-router.get('/', authenticateToken, function(req, res, next) {
-
-  res.json(
-      [
-        {   id: 1, 
-            image:"./images/cat.png",
-            name:"Smart Circus", 
-            wallet: "0xd7f2cg...j7H8k9L",  
-            hash:"379853745983759837598374598374",
-            status:"Awarded", 
-            type: "Compaign Winner", 
-            date:"12 Jan 2025", 
-            previewLink:"https://localhost:3000/nft/1", 
-        },
-        {   id: 2, 
-            image:"./images/cat.png",
-            name:"Smart Circus", 
-            wallet: "0xd7f2cg...j7H8k9L",  
-            hash:"379853745983759837598374598374",
-            status:"Awarded", 
-            type: "Compaign Winner", 
-            date:"12 Jan 2025", 
-            previewLink:"https://localhost:3000/nft/2", 
-        },
-        {   id: 3, 
-            image:"./images/cat.png",
-            name:"Smart Circus", 
-            wallet: "0xd7f2cg...j7H8k9L",  
-            hash:"379853745983759837598374598374",
-            status:"Awarded", 
-            type: "Compaign Winner", 
-            date:"12 Jan 2025", 
-            previewLink:"https://localhost:3000/nft/3", 
-        },      
-      ]
-  );
+router.get('/', authenticateToken, async function(req, res) {
+  const news = await rewardNftModel.getRewardsNfts();
+  res.json(news);
 });
+
+
+router.get('/:id',  authenticateToken,  async function(req, res) {
+  const news = await rewardNftModel.getRewardsNft(req.params.id);
+  res.json(news);
+});
+
+
+router.post('/', authenticateToken, async function(req, res) {
+    const user = req.user;
+    if(user.role != "admin") {
+      res.status(403).json({status:"error", message:"Server refuses to authorize it"});
+      return;
+    }  
+    const result = await rewardNftModel.addNew({...user, ...req.body});
+  res.json(result);
+});
+
 
 module.exports = router;

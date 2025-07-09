@@ -1,6 +1,31 @@
 var express = require('express');
 var router = express.Router();
 const authenticateToken = require("./../middlewares/auth");
+const rewardCharityLotteryModel = require("./../models/rewardCharityLottery");
+
+
+router.get('/', authenticateToken, async function(req, res) {
+  const result = await rewardCharityLotteryModel.getRewardCharityLotteries();
+  res.json(result);
+});
+
+
+router.get('/:id',  authenticateToken,  async function(req, res) {
+  const news = await rewardCharityLotteryModel.getRewardCharityLottery(req.params.id);
+  res.json(news);
+});
+
+
+router.post('/', authenticateToken, async function(req, res) {
+    const user = req.user;
+    if(user.role != "admin") {
+      res.status(403).json({status:"error", message:"Server refuses to authorize it"});
+      return;
+    }  
+    const result = await rewardCharityLotteryModel.addRewardCharityLottery({...user, ...req.body});
+    res.json(result);
+});
+
 
 
 router.get('/', authenticateToken, function(req, res, next) {

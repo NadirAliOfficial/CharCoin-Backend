@@ -1,12 +1,49 @@
 var express = require('express');
 var router = express.Router();
 const authenticateToken = require("./../middlewares/auth");
+const newsModel = require("./../models/news");
+
+router.get('/', authenticateToken, async function(req, res) {
+  const news = await newsModel.getNews();
+  console.log(news);
+  res.json(news);
+});
 
 
-router.get('/', authenticateToken, function(req, res, next) {
+router.get('/latest',  authenticateToken,  async function(req, res) {
+  const news = await newsModel.getLatest(req?.query?.limit || 1);
+  res.json(news);
+});
 
-  res.json(
-      [
+
+router.get('/:id',  authenticateToken,  async function(req, res) {
+  const news = await newsModel.getNew(req.params.id);
+  res.json(news);
+});
+
+
+
+router.post('/', authenticateToken, async function(req, res) {
+    const user = req?.user;
+    if(user?.role != "admin") {
+      res.status(403).json({status:"error", message:"Server refuses to authorize it"});
+      return;
+    }  
+    const result = await newsModel.addNew({...user, ...req.body});
+  res.json(result);
+});
+
+module.exports = router;
+
+
+
+
+
+
+
+/*
+
+[
         {   id: 1, 
             video:"feature-image.png", 
             heading:"GLOBAL EMERGENCIES", 
@@ -35,7 +72,5 @@ router.get('/', authenticateToken, function(req, res, next) {
             views:435
         },                   
       ]
-  );
-});
 
-module.exports = router;
+*/

@@ -1,0 +1,290 @@
+{ token: undefined }
+[0mPOST /api/causes [33m401 [0m26.352 ms - 64[0m
+[0mPOST /api/auth/token [32m200 [0m87.421 ms - 20[0m
+{
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwid2FsbGV0IjoiRll4VThDZUxyeVJUWkxhYjRrRzJzcE5jV3R2TXI0blpEVTdQVlYzWXJMd1UiLCJuYW1lIjoiRmFoZWVtIiwiaWQiOjEsImlhdCI6MTc1MDczMjIxOSwiZXhwIjoxNzUwNzMzMTE5fQ.hmp6fudquvw3YIiKyaN2n-B3fg8tl1otrerAqVQ6iDI'
+}
+[0mPOST /api/causes [0m- [0m- ms - -[0m
+{
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwid2FsbGV0IjoiRll4VThDZUxyeVJUWkxhYjRrRzJzcE5jV3R2TXI0blpEVTdQVlYzWXJMd1UiLCJuYW1lIjoiRmFoZWVtIiwiaWQiOjEsImlhdCI6MTc1MDczMjIxOSwiZXhwIjoxNzUwNzMzMTE5fQ.hmp6fudquvw3YIiKyaN2n-B3fg8tl1otrerAqVQ6iDI'
+}
+[0mPOST /api/causes [0m- [0m- ms - -[0m
+{
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwid2FsbGV0IjoiRll4VThDZUxyeVJUWkxhYjRrRzJzcE5jV3R2TXI0blpEVTdQVlYzWXJMd1UiLCJuYW1lIjoiRmFoZWVtIiwiaWQiOjEsImlhdCI6MTc1MDczMjIxOSwiZXhwIjoxNzUwNzMzMTE5fQ.hmp6fudquvw3YIiKyaN2n-B3fg8tl1otrerAqVQ6iDI'
+}
+[0mPOST /api/causes [0m- [0m- ms - -[0m
+[0mPOST /api/auth/login [32m200 [0m131.906 ms - 20[0m
+[0mPOST /api/auth/token [32m200 [0m2.764 ms - 20[0m
+{
+  nonce: 'Login request \n' +
+    ' At : 2025-06-24T02:38:49.676Z \n' +
+    ' By : FYxU8CeLryRTZLab4kG2spNcWtvMr4nZDU7PVV3YrLwU'
+}
+[0mPOST /api/auth/get-nonce [32m200 [0m1.966 ms - 111[0m
+{
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwid2FsbGV0IjoiRll4VThDZUxyeVJUWkxhYjRrRzJzcE5jV3R2TXI0blpEVTdQVlYzWXJMd1UiLCJuYW1lIjoiRmFoZWVtIiwiaWQiOjEsImlhdCI6MTc1MDczMjcyNSwiZXhwIjoxNzUwNzMzNjI1fQ.FkZhvREyoEBMKZin0cnlRfRFazMKw3k8jHsH3UcOPIg'
+}
+[
+  {
+    id: 18,
+    title: 'GLOBAL EMERGENCIES 45',
+    category: 'Clean Water',
+    image: 'feature-image.png',
+    detail: 'CHAR Coin donates $145,000 to Chilean earthquake victims',
+    status: 'published',
+    posted_on: 2025-06-24T01:21:53.000Z,
+    views: 0
+  },
+  {
+    id: 17,
+    title: 'GLOBAL EMERGENCIES 45',
+    category: 'Clean Water',
+    image: 'feature-image.png',
+    detail: 'CHAR Coin donates $145,000 to Chilean earthquake victims',
+    status: 'published',
+    posted_on: 2025-06-24T00:41:13.000Z,
+    views: 0
+  },
+  {
+    id: 16,
+    title: 'GLOBAL EMERGENCIES 45',
+    category: 'Clean Water',
+    image: 'feature-image.png',
+    detail: 'CHAR Coin donates $145,000 to Chilean earthquake victims',
+    status: 'published',
+    posted_on: 2025-06-24T04:27:24.000Z,
+    views: 0
+  },
+  {
+    id: 15,
+    title: 'GLOBAL EMERGENCIES 45',
+    category: 'Clean Water',
+    image: 'feature-image.png',
+    detail: 'CHAR Coin donates $145,000 to Chilean earthquake victims',
+    status: 'published',
+    posted_on: 2025-06-24T04:22:06.000Z,
+    views: 0
+  },
+  {
+    id: 14,
+    title: 'GLOBAL EMERGENCIES 45',
+    category: 'Clean Water',
+    image: 'feature-image.png',
+    detail: 'CHAR Coin donates $145,000 to Chilean earthquake victims',
+    status: 'published',
+    posted_on: 2025-06-24T04:14:35.000Z,
+    views: 0
+  },
+  {
+    id: 13,
+    title: 'GLOBAL EMERGENCIES 45',
+    category: 'Clean Water',
+    image: 'feature-image.png',
+    detail: 'CHAR Coin donates $145,000 to Chilean earthquake victims',
+    status: 'published',
+    posted_on: 2025-06-24T02:22:32.000Z,
+    views: 0
+  },
+  {
+    id: 12,
+    title: 'GLOBAL EMERGENCIES 45',
+    category: 'Clean Water',
+    image: 'feature-image.png',
+    detail: 'CHAR Coin donates $145,000 to Chilean earthquake victims',
+    status: 'published',
+    posted_on: 2025-06-24T02:22:26.000Z,
+    views: 0
+  },
+  {
+    id: 11,
+    title: 'GLOBAL EMERGENCIES 44',
+    category: 'Clean Water',
+    image: 'feature-image.png',
+    detail: 'CHAR Coin donates $145,000 to Chilean earthquake victims',
+    status: 'published',
+    posted_on: 2025-06-22T03:54:25.000Z,
+    views: 0
+  },
+  {
+    id: 4,
+    title: 'Global Cyber Alliance Foils Major Ransomware Attack on Financial Institutions',
+    category: 'Clean Water',
+    image: 'https://placehold.co/1200x600/FF33CC/FFFFFF?text=Cybersecurity+Alliance',
+    detail: 'A coordinated effort by the Global Cyber Alliance successfully thwarted a sophisticated ransomware attack targeting several major financial institutions worldwide. The swift action prevented widespread data breaches and billions in potential losses. This operation highlights the increasing importance of international cooperation in cybersecurity.',
+    status: 'published',
+    posted_on: null,
+    views: 343
+  },
+  {
+    id: 3,
+    title: "Eco-City Project in Neo-Dubai Unveils World's Largest Vertical Farm",
+    category: 'URBAN DEVELOPMENT',
+    image: 'https://placehold.co/1200x600/3357FF/FFFFFF?text=Vertical+Farm+Dubai',
+    detail: "CHAR Coin donates $145,000 to Chilean earthquake victimsNeo-Dubai's ambitious Eco-City initiative has proudly unveiled the planet's largest integrated vertical farm. This massive agricultural marvel is designed to provide sustainable food security for the rapidly growing urban population. It represents a significant step forward in innovative, high-density urban farming solutions.",
+    status: 'published',
+    posted_on: null,
+    views: 343
+  },
+  {
+    id: 2,
+    title: "AstraZeneca's New AI-Powered Drug Shows Promising Results in Cancer Trials",
+    category: 'HEALTH & MEDICINE',
+    image: 'https://placehold.co/1200x600/222223/FFFFFF?text=AI+Drug+Trial+Success',
+    detail: "AstraZeneca's latest pharmaceutical, developed with cutting-edge AI, has demonstrated highly encouraging outcomes in its initial cancer clinical trials. Patients showed remarkable improvements with minimal side effects. The company plans accelerated approval pathways, bringing hope for a new era in oncology treatment.",
+    status: 'published',
+    posted_on: null,
+    views: 343
+  },
+  {
+    id: 1,
+    title: 'QuantumLeap Labs Announces Breakthrough in Cold Fusion Technology',
+    category: 'SCIENCE & INNOVATION',
+    image: 'https://placehold.co/1200x600/FF5733/FFFFFF?text=Cold+Fusion+Breakthrough',
+    detail: 'QuantumLeap Labs has officially revealed a significant advancement in cold fusion, promising a clean, virtually limitless energy source. This scientific milestone could revolutionize global power generation. Researchers are now focusing on scaling the technology for commercial applications within the next decade.',
+    status: 'published',
+    posted_on: null,
+    views: 343
+  }
+]
+[0mGET /api/news [32m200 [0m13.248 ms - 4287[0m
+{
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwid2FsbGV0IjoiRll4VThDZUxyeVJUWkxhYjRrRzJzcE5jV3R2TXI0blpEVTdQVlYzWXJMd1UiLCJuYW1lIjoiRmFoZWVtIiwiaWQiOjEsImlhdCI6MTc1MDczMjcyNSwiZXhwIjoxNzUwNzMzNjI1fQ.FkZhvREyoEBMKZin0cnlRfRFazMKw3k8jHsH3UcOPIg'
+}
+[0mPOST /api/news/ [32m200 [0m16.400 ms - 108[0m
+{
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwid2FsbGV0IjoiRll4VThDZUxyeVJUWkxhYjRrRzJzcE5jV3R2TXI0blpEVTdQVlYzWXJMd1UiLCJuYW1lIjoiRmFoZWVtIiwiaWQiOjEsImlhdCI6MTc1MDczMjcyNSwiZXhwIjoxNzUwNzMzNjI1fQ.FkZhvREyoEBMKZin0cnlRfRFazMKw3k8jHsH3UcOPIg'
+}
+[0mGET /api/staking/A7rqWKWCo6ykAcFQcu7oeqVm18YgP3jmwCdc5F7iVEiT [32m200 [0m8.568 ms - 1723[0m
+{
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwid2FsbGV0IjoiRll4VThDZUxyeVJUWkxhYjRrRzJzcE5jV3R2TXI0blpEVTdQVlYzWXJMd1UiLCJuYW1lIjoiRmFoZWVtIiwiaWQiOjEsImlhdCI6MTc1MDczMjcyNSwiZXhwIjoxNzUwNzMzNjI1fQ.FkZhvREyoEBMKZin0cnlRfRFazMKw3k8jHsH3UcOPIg'
+}
+[0mPOST /api/staking [0m- [0m- ms - -[0m
+{
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwid2FsbGV0IjoiRll4VThDZUxyeVJUWkxhYjRrRzJzcE5jV3R2TXI0blpEVTdQVlYzWXJMd1UiLCJuYW1lIjoiRmFoZWVtIiwiaWQiOjEsImlhdCI6MTc1MDczMjcyNSwiZXhwIjoxNzUwNzMzNjI1fQ.FkZhvREyoEBMKZin0cnlRfRFazMKw3k8jHsH3UcOPIg'
+}
+[0mGET /api/causes/ [32m200 [0m10.842 ms - 7434[0m
+{
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwid2FsbGV0IjoiRll4VThDZUxyeVJUWkxhYjRrRzJzcE5jV3R2TXI0blpEVTdQVlYzWXJMd1UiLCJuYW1lIjoiRmFoZWVtIiwiaWQiOjEsImlhdCI6MTc1MDczMjcyNSwiZXhwIjoxNzUwNzMzNjI1fQ.FkZhvREyoEBMKZin0cnlRfRFazMKw3k8jHsH3UcOPIg'
+}
+[0mPOST /api/causes [0m- [0m- ms - -[0m
+{
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwid2FsbGV0IjoiRll4VThDZUxyeVJUWkxhYjRrRzJzcE5jV3R2TXI0blpEVTdQVlYzWXJMd1UiLCJuYW1lIjoiRmFoZWVtIiwiaWQiOjEsImlhdCI6MTc1MDczMjcyNSwiZXhwIjoxNzUwNzMzNjI1fQ.FkZhvREyoEBMKZin0cnlRfRFazMKw3k8jHsH3UcOPIg'
+}
+[0mGET /api/reward-charity-lottery [32m200 [0m7.599 ms - 3494[0m
+{
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwid2FsbGV0IjoiRll4VThDZUxyeVJUWkxhYjRrRzJzcE5jV3R2TXI0blpEVTdQVlYzWXJMd1UiLCJuYW1lIjoiRmFoZWVtIiwiaWQiOjEsImlhdCI6MTc1MDczMjcyNSwiZXhwIjoxNzUwNzMzNjI1fQ.FkZhvREyoEBMKZin0cnlRfRFazMKw3k8jHsH3UcOPIg'
+}
+[0mPOST /api/reward-charity-lottery [0m- [0m- ms - -[0m
+{
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwid2FsbGV0IjoiRll4VThDZUxyeVJUWkxhYjRrRzJzcE5jV3R2TXI0blpEVTdQVlYzWXJMd1UiLCJuYW1lIjoiRmFoZWVtIiwiaWQiOjEsImlhdCI6MTc1MDczMjcyNSwiZXhwIjoxNzUwNzMzNjI1fQ.FkZhvREyoEBMKZin0cnlRfRFazMKw3k8jHsH3UcOPIg'
+}
+[0mGET /api/charity-lottery-winners/ [32m200 [0m7.561 ms - 1588[0m
+{
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwid2FsbGV0IjoiRll4VThDZUxyeVJUWkxhYjRrRzJzcE5jV3R2TXI0blpEVTdQVlYzWXJMd1UiLCJuYW1lIjoiRmFoZWVtIiwiaWQiOjEsImlhdCI6MTc1MDczMjcyNSwiZXhwIjoxNzUwNzMzNjI1fQ.FkZhvREyoEBMKZin0cnlRfRFazMKw3k8jHsH3UcOPIg'
+}
+[
+  ResultSetHeader {
+    fieldCount: 0,
+    affectedRows: 1,
+    insertId: 10,
+    info: '',
+    serverStatus: 2,
+    warningStatus: 0,
+    changedRows: 0
+  },
+  undefined
+]
+[0mPOST /api/charity-lottery-winners [32m200 [0m6.835 ms - 108[0m
+{
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwid2FsbGV0IjoiRll4VThDZUxyeVJUWkxhYjRrRzJzcE5jV3R2TXI0blpEVTdQVlYzWXJMd1UiLCJuYW1lIjoiRmFoZWVtIiwiaWQiOjEsImlhdCI6MTc1MDczMjcyNSwiZXhwIjoxNzUwNzMzNjI1fQ.FkZhvREyoEBMKZin0cnlRfRFazMKw3k8jHsH3UcOPIg'
+}
+[0mGET /api/top-tier-wallets [32m200 [0m6.875 ms - 1519[0m
+{
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwid2FsbGV0IjoiRll4VThDZUxyeVJUWkxhYjRrRzJzcE5jV3R2TXI0blpEVTdQVlYzWXJMd1UiLCJuYW1lIjoiRmFoZWVtIiwiaWQiOjEsImlhdCI6MTc1MDczMjcyNSwiZXhwIjoxNzUwNzMzNjI1fQ.FkZhvREyoEBMKZin0cnlRfRFazMKw3k8jHsH3UcOPIg'
+}
+Error: Field 'username' doesn't have a default value
+    at PromisePool.execute (/root/www/node_modules/mysql2/lib/promise/pool.js:54:22)
+    at update (/root/www/models/db.js:23:27)
+    at Object.addTopWallet (/root/www/models/topTierWallet.js:9:28)
+    at /root/www/routes/top-wallets.js:25:45
+    at Layer.handle [as handle_request] (/root/www/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/www/node_modules/express/lib/router/route.js:137:13)
+    at /root/www/middlewares/auth.js:15:7
+    at /root/www/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/root/www/node_modules/jsonwebtoken/verify.js:97:14)
+    at module.exports [as verify] (/root/www/node_modules/jsonwebtoken/verify.js:101:10) {
+  code: 'ER_NO_DEFAULT_FOR_FIELD',
+  errno: 1364,
+  sql: ' INSERT INTO top_wallets(wallet, volume, winnings, created_by) VALUES(?,?,?,?);',
+  sqlState: 'HY000',
+  sqlMessage: "Field 'username' doesn't have a default value"
+}
+[0mPOST /api/top-tier-wallets/ [32m200 [0m5.362 ms - -[0m
+{
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwid2FsbGV0IjoiRll4VThDZUxyeVJUWkxhYjRrRzJzcE5jV3R2TXI0blpEVTdQVlYzWXJMd1UiLCJuYW1lIjoiRmFoZWVtIiwiaWQiOjEsImlhdCI6MTc1MDczMjcyNSwiZXhwIjoxNzUwNzMzNjI1fQ.FkZhvREyoEBMKZin0cnlRfRFazMKw3k8jHsH3UcOPIg'
+}
+[0mGET /api/admins/ [32m200 [0m7.190 ms - 1060[0m
+{
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwid2FsbGV0IjoiRll4VThDZUxyeVJUWkxhYjRrRzJzcE5jV3R2TXI0blpEVTdQVlYzWXJMd1UiLCJuYW1lIjoiRmFoZWVtIiwiaWQiOjEsImlhdCI6MTc1MDczMjcyNSwiZXhwIjoxNzUwNzMzNjI1fQ.FkZhvREyoEBMKZin0cnlRfRFazMKw3k8jHsH3UcOPIg'
+}
+[0mPOST /api/admins [0m- [0m- ms - -[0m
+{
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwid2FsbGV0IjoiRll4VThDZUxyeVJUWkxhYjRrRzJzcE5jV3R2TXI0blpEVTdQVlYzWXJMd1UiLCJuYW1lIjoiRmFoZWVtIiwiaWQiOjEsImlhdCI6MTc1MDczMjcyNSwiZXhwIjoxNzUwNzMzNjI1fQ.FkZhvREyoEBMKZin0cnlRfRFazMKw3k8jHsH3UcOPIg'
+}
+[0mGET /api/rewards-nft/ [32m200 [0m6.535 ms - 1879[0m
+{
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwid2FsbGV0IjoiRll4VThDZUxyeVJUWkxhYjRrRzJzcE5jV3R2TXI0blpEVTdQVlYzWXJMd1UiLCJuYW1lIjoiRmFoZWVtIiwiaWQiOjEsImlhdCI6MTc1MDczMjcyNSwiZXhwIjoxNzUwNzMzNjI1fQ.FkZhvREyoEBMKZin0cnlRfRFazMKw3k8jHsH3UcOPIg'
+}
+[0mPOST /api/rewards-nft [32m200 [0m5.830 ms - 107[0m
+{
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwid2FsbGV0IjoiRll4VThDZUxyeVJUWkxhYjRrRzJzcE5jV3R2TXI0blpEVTdQVlYzWXJMd1UiLCJuYW1lIjoiRmFoZWVtIiwiaWQiOjEsImlhdCI6MTc1MDczMjcyNSwiZXhwIjoxNzUwNzMzNjI1fQ.FkZhvREyoEBMKZin0cnlRfRFazMKw3k8jHsH3UcOPIg'
+}
+[0mGET /api/reward-charity-lottery [32m200 [0m4.130 ms - 3494[0m
+{
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwid2FsbGV0IjoiRll4VThDZUxyeVJUWkxhYjRrRzJzcE5jV3R2TXI0blpEVTdQVlYzWXJMd1UiLCJuYW1lIjoiRmFoZWVtIiwiaWQiOjEsImlhdCI6MTc1MDczMjcyNSwiZXhwIjoxNzUwNzMzNjI1fQ.FkZhvREyoEBMKZin0cnlRfRFazMKw3k8jHsH3UcOPIg'
+}
+[0mPOST /api/reward-charity-lottery [0m- [0m- ms - -[0m
+{
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwid2FsbGV0IjoiRll4VThDZUxyeVJUWkxhYjRrRzJzcE5jV3R2TXI0blpEVTdQVlYzWXJMd1UiLCJuYW1lIjoiRmFoZWVtIiwiaWQiOjEsImlhdCI6MTc1MDczMjcyNSwiZXhwIjoxNzUwNzMzNjI1fQ.FkZhvREyoEBMKZin0cnlRfRFazMKw3k8jHsH3UcOPIg'
+}
+[0mGET /api/staking/A7rqWKWCo6ykAcFQcu7oeqVm18YgP3jmwCdc5F7iVEiT [32m200 [0m43.677 ms - 1723[0m
+{
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwid2FsbGV0IjoiRll4VThDZUxyeVJUWkxhYjRrRzJzcE5jV3R2TXI0blpEVTdQVlYzWXJMd1UiLCJuYW1lIjoiRmFoZWVtIiwiaWQiOjEsImlhdCI6MTc1MDczMjcyNSwiZXhwIjoxNzUwNzMzNjI1fQ.FkZhvREyoEBMKZin0cnlRfRFazMKw3k8jHsH3UcOPIg'
+}
+{
+  username: 'admin',
+  role: 'admin',
+  wallet: 'A7rqWKWCo6ykAcFQcu7oeqVm18YgP3jmwCdc5F7iVEi1',
+  name: 'Noor Amin Khan',
+  id: 1,
+  iat: 1750732725,
+  exp: 1750733625,
+  staked_amount: '12123.00',
+  start_date: '2025-12-24T19:00:00.000Z',
+  end_date: '2025-12-24T19:00:00.000Z',
+  duration: '90',
+  voting_power: 0.5,
+  indeks: 12,
+  hash: 'hash'
+}
+Error: Incorrect datetime value: '2025-12-24T19:00:00.000Z' for column 'start_date' at row 1
+    at PromisePool.execute (/root/www/node_modules/mysql2/lib/promise/pool.js:54:22)
+    at update (/root/www/models/db.js:23:27)
+    at Object.addStaking (/root/www/models/staking.js:18:28)
+    at /root/www/routes/staking.js:24:37
+    at Layer.handle [as handle_request] (/root/www/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/www/node_modules/express/lib/router/route.js:137:13)
+    at /root/www/middlewares/auth.js:15:7
+    at /root/www/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/root/www/node_modules/jsonwebtoken/verify.js:97:14)
+    at module.exports [as verify] (/root/www/node_modules/jsonwebtoken/verify.js:101:10) {
+  code: 'ER_TRUNCATED_WRONG_VALUE',
+  errno: 1292,
+  sql: ' INSERT INTO staking(\n' +
+    '                  name, wallet, staked_amount, start_date,\n' +
+    '                  end_date, duration, voting_power, indeks, hash, created_by) \n' +
+    '                  VALUES(?,?,?,?,?,?,?,?,?,?);',
+  sqlState: '22007',
+  sqlMessage: "Incorrect datetime value: '2025-12-24T19:00:00.000Z' for column 'start_date' at row 1"
+}
+[0mPOST /api/staking [0m- [0m- ms - -[0m

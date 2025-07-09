@@ -1,16 +1,29 @@
 var express = require('express');
 var router = express.Router();
 const authenticateToken = require("./../middlewares/auth");
+const charityLotteryModel = require("./../models/charityLottery");
 
 
+router.get('/', authenticateToken, async function(req, res) {
+    const lottries = await charityLotteryModel.getLotteries();
+  res.json(lottries);
+});
 
-router.get('/', authenticateToken, function(req, res, next) {
 
-  res.json([
-    { id: 1, address: "0xb4f9m...k2N7p9R", won: "$8,450" },
-    { id: 2, address: "0xc3f2a1...b4d5e6", won: "$7,100" },
-    { id: 3, address: "0x8765fe...dcba98", won: "$6,200" },
-    ]);
+router.get('/:id', authenticateToken, async function(req, res) {
+    const causes = await charityLotteryModel.getLottery(req.params.id);
+  res.json(causes);
+});
+
+
+router.post('/', authenticateToken, async function(req, res) {
+    const user = req.user;
+    if(user.role != "admin") {
+      res.status(403).json({status:"error", message:"Server refuses to authorize it"});
+      return;
+    }  
+    const result = await charityLotteryModel.addLottery({...user, ...req.body});
+  res.json(result);
 });
 
 module.exports = router;

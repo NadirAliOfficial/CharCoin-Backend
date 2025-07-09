@@ -1,17 +1,29 @@
 var express = require('express');
 var router = express.Router();
 const authenticateToken = require("./../middlewares/auth");
+const topTierWalletModel = require("./../models/topTierWallet");
 
 
-router.get('/', authenticateToken, function(req, res, next) {
+router.get('/', authenticateToken, async function(req, res) {
+    const lottries = await topTierWalletModel.getTopWallets(10);
+  res.json(lottries);
+});
 
-  res.json(
-      [
-        { id: 1, address: "0xd7f2cg...j7H8k9L", volume: "$120,550", winnings: "$15,230" },
-        { id: 2, address: "0xa1b2c3...d4e5f6", volume: "$110,000", winnings: "$12,345" },
-        { id: 3, address: "0x9876ab...cd3210", volume: "$95,750", winnings: "$10,500" },
-      ]
-  );
+
+router.get('/:id', authenticateToken, async function(req, res) {
+    const causes = await topTierWalletModel.getTopWallet(req.params.id);
+  res.json(causes);
+});
+
+
+router.post('/', authenticateToken, async function(req, res) {
+    const user = req.user;
+    if(user.role != "admin") {
+      res.status(403).json({status:"error", message:"Server refuses to authorize it"});
+      return;
+    }  
+    const result = await topTierWalletModel.addTopWallet({...user, ...req.body});
+  res.json(result);
 });
 
 module.exports = router;
@@ -19,8 +31,3 @@ module.exports = router;
 
 
 
-// [
-//     { id: 1, address: "0xd7f2cg...j7H8k9L", volume: "$120,550", winnings: "$15,230" },
-//     { id: 2, address: "0xa1b2c3...d4e5f6", volume: "$110,000", winnings: "$12,345" },
-//     { id: 3, address: "0x9876ab...cd3210", volume: "$95,750", winnings: "$10,500" },
-//   ]
