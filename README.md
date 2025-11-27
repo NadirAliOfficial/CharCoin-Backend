@@ -14,3 +14,4 @@ All smart contract interactions and fund allocations are securely handled throug
 For full details, visit: [charcoin.org](https://charcoin.org)
 <!-- updated: 2025-11-19-r01 -->
 
+
