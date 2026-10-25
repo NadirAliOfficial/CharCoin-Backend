@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon ./bin/www"
+    "start": "node init && nodemon ./bin/www"
   },
   "dependencies": {
     "@solana/web3.js": "^1.98.2",
